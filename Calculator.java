@@ -4,6 +4,8 @@ private Double calculate(SIGN sign, Double arg1, Double arg2) {
             return arg1 + arg2;
         case MINUS:
             return arg1 - arg2;
+        case MINUS:
+            return arg1 * arg2;
         default:
             break;
     }
